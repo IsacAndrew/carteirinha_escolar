@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: carteirinha-escolar
+    runtime: static
+    plan: free
+    staticPublishPath: ./
+    buildCommand: "echo 'Static site: no build step required'"
